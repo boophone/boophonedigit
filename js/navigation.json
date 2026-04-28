@@ -1,0 +1,29 @@
+{
+  "siteName": "PURESELECT",
+  "mainNav": [
+    { "title": "Home", "link": "/index.html" },
+    { 
+      "title": "Products", 
+      "link": "/products/index.html",
+      "subCategories": [
+        { "title": "Masks", "link": "/products/masks/index.html" },
+        { "title": "Cleansers", "link": "/products/cleansers/index.html" },
+        { "title": "Serums", "link": "/products/serums/index.html" }
+      ]
+    },
+    { 
+      "title": "Articles", 
+      "link": "/articles/index.html",
+      "subCategories": [
+        { "title": "Tips", "link": "/articles/tips/index.html" },
+        { "title": "Rankings", "link": "/articles/rankings/index.html" }
+      ]
+    },
+    { "title": "About", "link": "/about.html" }
+  ],
+  "breadcrumbs": {
+    "/products/masks/index.html": ["Home", "Products", "Masks"],
+    "/products/serums/index.html": ["Home", "Products", "Serums"],
+    "/articles/tips/index.html": ["Home", "Articles", "Tips"]
+  }
+}
