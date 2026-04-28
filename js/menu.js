@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Replace with your actual JSON path
-    fetch('navigation.json')
+    fetch('./navigation.json')
         .then(response => response.json())
         .then(data => {
             renderHeader(data);
